@@ -3,6 +3,7 @@ package model
 import (
 	"bytes"
 	"encoding/json"
+	"fmt"
 	"html/template"
 	"io/ioutil"
 	"path/filepath"
@@ -18,7 +19,7 @@ func JsonLoad(path string, fc interface{}) map[string]interface{} {
 	return result
 }
 
-// HTMLTemplate ...テンプレートを処理する（後で再帰を html/template の機能に置き換え）
+// HTMLTemplate ...テンプレートを処理する（後で再帰を html/template の機能に置き換え → 変数指定できない？）
 func HTMLTemplate(file string, data interface{}) string {
 	f := template.FuncMap{
 		"HTMLTemplate": func(file string, data interface{}) template.HTML {
@@ -27,6 +28,13 @@ func HTMLTemplate(file string, data interface{}) string {
 		"JsonLoad": func(path string) map[string]interface{} {
 			var tmp interface{}
 			return JsonLoad("./template/"+path, tmp)
+		},
+		"DataMap": func(data interface{}) map[string]interface{} {
+			return data.(map[string]interface{})
+		},
+		"DataString": func(data interface{}) string {
+			fmt.Println(data)
+			return "title" //data.(string)
 		},
 	}
 	var body bytes.Buffer

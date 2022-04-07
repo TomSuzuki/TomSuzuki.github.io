@@ -4,10 +4,9 @@
 <body>
 {{ range $index, $offer := .tags }}
     {{ $tmp := JsonLoad $offer }}
-    {{ $file := $tmp.part_name }}
-    {{ $data := $tmp.data }}
-    {{ $data }}
-    {{ template $file $data }}
+    {{ $file := $tmp.file }}
+    {{ $data := DataMap $tmp.data }}
+    {{ HTMLTemplate $file $data }}
 {{ end }}
 </body>
 </html>
