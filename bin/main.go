@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	_ "fmt"
 	"io/ioutil"
 	"os"
@@ -12,6 +13,9 @@ import (
 
 // main ...実行時にこれが呼び出される。
 func main() {
+	// メッセージ
+	fmt.Println("処理を開始します。")
+
 	// 設定の読み込み
 	setting := model.JsonLoad("./data/setting.json", object.SettingData{})
 
@@ -38,4 +42,7 @@ func main() {
 	for _, f := range files {
 		model.CopyFile(f, setting["output_path"].(string)+f)
 	}
+
+	// メッセージ
+	fmt.Println("正常に終了しました。")
 }
