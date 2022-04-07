@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="ja">
+{{ template "head" }}
+<body>
+{{ range $index, $offer := .tags }}
+    {{ $tmp := JsonLoad $offer }}
+    {{ $file := $tmp.part_name }}
+    {{ $data := $tmp.data }}
+    {{ $data }}
+    {{ template $file $data }}
+{{ end }}
+</body>
+</html>
