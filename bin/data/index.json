@@ -1,7 +1,13 @@
 {
     "data": {
         "tags": [
-            "title.json"
+            "menu.json",
+            "profile.json",
+            "works.json",
+            "log.json",
+            "skill.json",
+            "archive.json",
+            "footer.json"
         ]
     }
 }
