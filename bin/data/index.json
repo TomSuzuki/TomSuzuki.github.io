@@ -8,6 +8,9 @@
             "skill.json",
             "archive.json",
             "footer.json"
-        ]
+        ],
+        "head":{
+            "page_title": "TomSuzuki | Portfolio"
+        }
     }
 }

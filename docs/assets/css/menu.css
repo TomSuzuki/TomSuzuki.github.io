@@ -1,0 +1,25 @@
+#menu {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    width: 100%;
+}
+
+#menu_nav {
+    list-style: none;
+    font-size : 0;
+}
+
+#menu_nav li {
+    width           : 140px;
+    text-align      : center;
+    background-color: #333;
+    display         : inline-block;
+    font-size       : 16px;
+}
+
+#menu_nav li a {
+    text-decoration: none;
+    color          : #fff;
+    font-weight    : bold;
+    line-height    : 3em;
+}

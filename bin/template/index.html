@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
-{{ template "head" }}
+{{ template "head" DataMap $.head }}
 <body>
 {{ range $index, $offer := .tags }}
     {{ $tmp := JsonLoad $offer }}
