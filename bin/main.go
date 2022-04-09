@@ -24,8 +24,6 @@ func main() {
 	// パーツの処理（全体定義 → 読み込み → bodyのHTML）
 	body := string(controller.Index(indexData["data"].(map[string]interface{})))
 
-	// パスの書き換え（リンクを別タブにする）
-
 	// 古いデータの削除
 	if f, err := os.Stat(setting["output_path"].(string)); !(os.IsNotExist(err) || !f.IsDir()) {
 		os.RemoveAll(setting["output_path"].(string))

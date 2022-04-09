@@ -18,7 +18,7 @@
 
     <ul id="profile_sns">
         {{ range $i, $sns := .sns }}
-            <li><a class="btn5 color_{{ $sns.tag }}" href="{{ $sns.link }}"><span class="inner_btn5">{{ $sns.text }}</span></a></li>
+            <li><a target="_blank" class="btn5 color_{{ $sns.tag }}" href="{{ $sns.link }}"><span class="inner_btn5">{{ $sns.text }}</span></a></li>
         {{ end }}
     </ul>
 
