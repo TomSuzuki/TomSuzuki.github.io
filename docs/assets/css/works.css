@@ -1,6 +1,6 @@
 .works_frame {
     position             : relative;
-    padding              : 0 2em 1.5em;
+    padding              : 0 0 1.5em;
     width                : 100%;
     box-sizing           : border-box;
     display              : grid;
