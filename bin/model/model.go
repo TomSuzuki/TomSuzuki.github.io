@@ -36,6 +36,9 @@ func HTMLTemplate(file string, data interface{}) string {
 			fmt.Println(data)
 			return "title" //data.(string)
 		},
+		"SafeHTML": func(text string) template.HTML {
+			return template.HTML(text)
+		},
 	}
 	var body bytes.Buffer
 	parts, _ := filepath.Glob("./template/_*")

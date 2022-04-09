@@ -1,0 +1,7 @@
+<div id="footer">
+    <ul id="footer_list">
+        {{ range $i, $text := .msg_list }}
+        <li>{{ $text | SafeHTML }}</li>
+        {{ end }}
+    </ul>
+</div>
