@@ -4,7 +4,7 @@
         "skill": [
             {
                 "title": "Lang+",
-                "skill": [
+                "contents": [
                     {
                         "name": "Ruby",
                         "tag": "ruby"
@@ -73,7 +73,7 @@
             },
             {
                 "title": "Software",
-                "skill": [
+                "contents": [
                     {
                         "name": "Visual Studio Code",
                         "tag": "vscode"
@@ -90,7 +90,7 @@
             },
             {
                 "title": "Other",
-                "skill": [
+                "contents": [
                     {
                         "name": "Git",
                         "tag": "git"

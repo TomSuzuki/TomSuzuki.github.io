@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="ja">
 {{ template "head" DataMap $.head }}
+
 <body>
-{{ range $index, $offer := .tags }}
+    <div id="background"></div>
+    {{ range $index, $offer := .tags }}
     {{ $tmp := JsonLoad $offer }}
     {{ $file := $tmp.file }}
     {{ $data := DataMap $tmp.data }}
     {{ HTMLTemplate $file $data }}
-{{ end }}
+    {{ end }}
 </body>
+
 </html>

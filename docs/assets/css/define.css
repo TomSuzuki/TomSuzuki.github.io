@@ -1,0 +1,117 @@
+:root {
+    --color_theme       : #00926E;
+    --color_text        : #111111;
+    --color_white       : #FCFAFF;
+    --color_white2      : #EAE2EF;
+    --color_white3      : #F4F4F4;
+    --color_white4      : #FFFFFF;
+    --color_white5      : #ECECEC;
+    --default_radius    : 2px;
+    --default_transition: .175s;
+    --px_smartphone     : 599px;
+    --px_tablet         : 999px;
+}
+
+.color_ruby {
+    border-color: #701516;
+}
+
+.color_twitter {
+    border-color: #55acee;
+}
+
+.color_github {
+    border-color: #4183c4;
+}
+
+.color_html {
+    border-color: #e44b23;
+}
+
+.color_css {
+    border-color: #563d7c;
+}
+
+.color_js {
+    border-color: #f1e05a;
+}
+
+.color_lang_c {
+    border-color: #555555;
+}
+
+.color_cpp {
+    border-color: #f34b7d;
+}
+
+.color_java {
+    border-color: #b07219;
+}
+
+.color_hsp3 {
+    border-color: #01BFA7;
+}
+
+.color_processing3x {
+    border-color: #0096D8;
+}
+
+.color_python3 {
+    border-color: #0096D8;
+}
+
+.color_bat {
+    border-color: #89e051;
+}
+
+.color_react {
+    border-color: #61DAFB;
+}
+
+.color_winapi {
+    border-color: #8163C5;
+}
+
+.color_dxlib {
+    border-color: #846283;
+}
+
+.color_git {
+    border-color: #F04F30;
+}
+
+.color_vscode {
+    border-color: #1384D0;
+}
+
+.color_notepad {
+    border-color: #CCCCCC;
+}
+
+.color_nano {
+    border-color: #111111;
+}
+
+.color_arduino {
+    border-color: #00989D;
+}
+
+.color_ts {
+    border-color: #2b7489;
+}
+
+.color_qiita {
+    border-color: #55C500;
+}
+
+.color_sql {
+    border-color: #F55385;
+}
+
+.color_go {
+    border-color: #375EAB;
+}
+
+.color_vue {
+    border-color: #41B883;
+}

@@ -1,0 +1,11 @@
+body {
+    padding         : 0;
+    margin          : 0;
+    background-color: var(--color_white);
+}
+
+h4 {
+    border-left  : .5em solid var(--color_theme);
+    padding-left : .4em;
+    margin-bottom: 0;
+}
