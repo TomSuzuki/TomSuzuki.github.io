@@ -1,11 +1,35 @@
 #menu {
-    position             : block;
     z-index              : 9999;
     top                  : 0;
     display              : grid;
     grid-template-columns: 1fr auto;
+    height               : 3rem;
     width                : 100%;
     background           : var(--color_white);
+    position             : relative;
+    background-color     : var(--color_black);
+}
+
+#menu_info {
+    position   : relative;
+    margin-left: 3em;
+}
+
+#menu_logo {
+    padding      : 8px;
+    border-radius: 50%;
+    height       : 3rem;
+    box-sizing   : border-box;
+}
+
+#menu_title {
+    font-size: large;
+    display  : inline-block;
+    position : absolute;
+    left     : calc(3rem + .5rem);
+    top      : 50%;
+    transform: translateY(-50%);
+    color    : var(--color_white);
 }
 
 #menu_nav {

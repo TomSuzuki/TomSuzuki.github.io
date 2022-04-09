@@ -11,8 +11,8 @@ body {
 h3 {
     border-left  : .5em solid var(--color_theme);
     border-bottom: 1px solid var(--color_theme);
-    background   : var(--color_white2);
-    line-height  : 2em;
+    background   : var(--color_white);
+    line-height  : 3em;
     padding-left : 1em;
     margin-top: 3em;
 }

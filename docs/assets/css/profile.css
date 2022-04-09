@@ -1,3 +1,13 @@
+#update {
+    text-align: right;
+    font-size : small;
+    color     : var(--color_dark_gray);
+}
+
+#profile {
+    padding: 0 2rem;
+}
+
 #profile_img {
     position  : relative;
     text-align: center;

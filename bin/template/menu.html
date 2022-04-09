@@ -1,5 +1,8 @@
 <div id="menu">
-    <span id="menu_logo">画像を入れる</span>
+    <div id="menu_info">
+        <img id="menu_logo" src="./assets/img/icon.jpg">
+        <div id="menu_title">TomSuzuki</div>
+    </div>
     <ul id="menu_nav">
         {{ range $i, $menu := .list }}
         <li><a onclick="javascript:menu_scroll('{{ $menu.anchor }}')">{{ $menu.text }}</a></li>
