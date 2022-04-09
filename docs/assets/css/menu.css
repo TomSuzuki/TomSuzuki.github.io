@@ -1,7 +1,11 @@
 #menu {
-    display: grid;
+    position             : block;
+    z-index              : 9999;
+    top                  : 0;
+    display              : grid;
     grid-template-columns: 1fr auto;
-    width: 100%;
+    width                : 100%;
+    background           : var(--color_white);
 }
 
 #menu_nav {
@@ -10,16 +14,30 @@
 }
 
 #menu_nav li {
-    width           : 140px;
-    text-align      : center;
-    background-color: #333;
-    display         : inline-block;
-    font-size       : 16px;
+    width     : 140px;
+    text-align: center;
+    display   : inline-block;
+    font-size : 16px;
 }
 
 #menu_nav li a {
-    text-decoration: none;
-    color          : #fff;
-    font-weight    : bold;
-    line-height    : 3em;
+    display         : inline-block;
+    width           : 100%;
+    height          : 100%;
+    background-color: var(--color_black);
+    text-decoration : none;
+    color           : var(--color_white);
+    font-weight     : bold;
+    line-height     : 3em;
+}
+
+#menu_nav li a:hover {
+    cursor          : pointer;
+    background-color: var(--color_black2);
+}
+
+@media (max-width: 599px) {
+    #menu {
+        display: none;
+    }
 }

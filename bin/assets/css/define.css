@@ -1,6 +1,8 @@
 :root {
     --color_theme         : #00926E;
     --color_text          : #111111;
+    --color_black         : #333333;
+    --color_black2        : #222222;
     --color_white         : #FCFAFF;
     --color_white2        : #EAE2EF;
     --color_white3        : #F4F4F4;
@@ -21,7 +23,7 @@
 }
 
 .color_twitter * {
-    border-color    : #55acee;
+    border-color: #55acee;
 }
 
 .color_qiita>* {
