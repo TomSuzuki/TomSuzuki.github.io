@@ -19,14 +19,19 @@
         ],
         "sns": [
             {
+                "tag": "twitter",
+                "text": "Twitter",
+                "link": "https://twitter.com/0x0553"
+            },
+            {
                 "tag": "github",
                 "text": "GitHub",
                 "link": "https://github.com/TomSuzuki"
             },
             {
-                "tag": "twitter",
-                "text": "Twitter",
-                "link": "https://twitter.com/0x0553"
+                "tag": "github",
+                "text": "GitHub Gist",
+                "link": "https://gist.github.com/TomSuzuki"
             },
             {
                 "tag": "qiita",

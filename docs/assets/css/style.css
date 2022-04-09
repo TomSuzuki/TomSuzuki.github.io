@@ -1,5 +1,8 @@
 * {
-    font-weight: bold;
+	color      : var(--Color_Text);
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Osaka", "游ゴシック", Meiryo, sans-serif;
+	font-weight: bold;
+	word-wrap  : break-word;
 }
 
 body {

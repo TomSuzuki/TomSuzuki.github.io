@@ -3,7 +3,7 @@
     min-width : 10em;
     text-align: center;
     color     : var(--color_text);
-    margin    : 0 .5em;
+    margin    : .5em;
     cursor    : pointer;
 }
 
