@@ -1,0 +1,13 @@
+<div id="archive" class="outer">
+    <h3>Archive</h3>
+    {{ range $i, $archives := .archive }}
+    <details class="archive_details">
+        <summary>{{ $archives.title }}</summary>
+        <ul>
+            {{ range $j, $content := $archives.contents }}
+            <li><a href="{{ $content.link }}">{{ $content.title }}</a></li>
+            {{ end }}
+        </ul>
+    </details>
+    {{ end }}
+</div>

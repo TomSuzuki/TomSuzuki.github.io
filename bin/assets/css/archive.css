@@ -1,0 +1,24 @@
+.archive_details {
+    padding   : 0 1em;
+    box-sizing: border-box;
+}
+
+.archive_details ul {
+    margin-top: 0.25em;
+}
+
+.archive_details summary {
+    font-size  : small;
+    width      : auto;
+    display    : inline;
+    user-select: none;
+}
+
+.archive_details summary:focus {
+    outline: none;
+}
+
+.archive_details summary:hover {
+    color : var(--color_theme);
+    cursor: pointer;
+}
