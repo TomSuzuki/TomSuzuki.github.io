@@ -20,11 +20,15 @@
     border-color: #701516;
 }
 
-.color_twitter {
-    border-color: #55acee;
+.color_twitter * {
+    border-color    : #55acee;
 }
 
-.color_github {
+.color_qiita>* {
+    border-color: #55C500;
+}
+
+.color_github>* {
     border-color: #4183c4;
 }
 
@@ -102,10 +106,6 @@
 
 .color_ts {
     border-color: #2b7489;
-}
-
-.color_qiita {
-    border-color: #55C500;
 }
 
 .color_sql {

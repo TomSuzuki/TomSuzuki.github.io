@@ -1,0 +1,63 @@
+#profile_img {
+    position  : relative;
+    text-align: center;
+    margin-top: 2em;
+}
+
+#profile_img_header {
+    width          : 100%;
+    height         : 640px;
+    max-width      : 100%;
+    object-fit     : cover;
+    object-position: 50% 50%;
+    overflow       : hidden;
+}
+
+#profile_img_icon {
+    border-radius: 50%;
+    width        : 8rem;
+}
+
+#profile_img_title {
+    font-size: xxx-large;
+    padding  : .25em 1em;
+}
+
+#profile_table_outer {
+    text-align: center;
+}
+
+#profile_table {
+    display       : inline-block;
+    text-align    : center;
+    font-size     : large;
+    border-spacing: .25em;
+}
+
+#profile_table th,
+#profile_table td {
+    border-radius: var(--default_radius);
+    padding      : .25em .5em;
+}
+
+#profile_table th {
+    text-align      : center;
+    background-color: var(--color_theme);
+    color           : var(--color_white);
+}
+
+#profile_table td {
+    text-align: left;
+}
+
+#profile_sns {
+    padding        : 1em auto;
+    list-style-type: none;
+    display        : flex;
+    flex-wrap      : wrap;
+    justify-content: center;
+}
+
+#profile_msg {
+    padding: 2em 0 1em;
+}

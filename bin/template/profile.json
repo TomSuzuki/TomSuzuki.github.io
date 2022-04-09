@@ -1,6 +1,8 @@
 {
     "file": "profile.html",
     "data": {
+        "title": "About | TomSuzuki",
+        "msg": "ようこそ。TomSuzukiです。作品をまとめているページです。各作品の詳細はGitHubへ。",
         "table": [
             {
                 "head": "Name",
@@ -9,22 +11,28 @@
             {
                 "head": "Birthday",
                 "text": "1999.2.20"
+            },
+            {
+                "head": "Location",
+                "text": "Hokkido, JP"
             }
         ],
-        "sns_github": {
-            "tag": "github",
-            "text": "GitHub",
-            "link": "https://github.com/TomSuzuki"
-        },
-        "sns_twitter": {
-            "tag": "twitter",
-            "text": "Twitter",
-            "link": "https://twitter.com/0x0553"
-        },
-        "sns_qiita": {
-            "tag": "qiita",
-            "text": "Qiita",
-            "link": "https://qiita.com/TomSuzuki"
-        }
+        "sns": [
+            {
+                "tag": "github",
+                "text": "GitHub",
+                "link": "https://github.com/TomSuzuki"
+            },
+            {
+                "tag": "twitter",
+                "text": "Twitter",
+                "link": "https://twitter.com/0x0553"
+            },
+            {
+                "tag": "qiita",
+                "text": "Qiita",
+                "link": "https://qiita.com/TomSuzuki"
+            }
+        ]
     }
 }
