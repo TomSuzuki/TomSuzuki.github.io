@@ -8,7 +8,6 @@ import (
 
 	"github.com/TomSuzuki/TomSuzuki.github.io_new/bin/controller"
 	"github.com/TomSuzuki/TomSuzuki.github.io_new/bin/model"
-	"github.com/TomSuzuki/TomSuzuki.github.io_new/bin/object"
 )
 
 // main ...実行時にこれが呼び出される。
@@ -17,10 +16,10 @@ func main() {
 	fmt.Println("処理を開始します。")
 
 	// 設定の読み込み
-	setting := model.JsonLoad("./data/setting.json", object.SettingData{})
+	setting := model.JsonLoad("./data/setting.json")
 
 	// 全体定義の読み込み
-	indexData := model.JsonLoad("./data/index.json", object.IndexData{})
+	indexData := model.JsonLoad("./data/index.json")
 
 	// パーツの処理（全体定義 → 読み込み → bodyのHTML）
 	body := string(controller.Index(indexData["data"].(map[string]interface{})))

@@ -10,12 +10,10 @@ import (
 )
 
 // JsonLoad ...jsonファイルの読み込みを行う
-func JsonLoad(path string, fc interface{}) map[string]interface{} {
+func JsonLoad(path string) map[string]interface{} {
 	var result map[string]interface{}
 	raw, _ := ioutil.ReadFile(path)
 	json.Unmarshal(raw, &result)
-	// tmp := fc.(map[string]interface{})
-	// tmp["data"] = tmp["data"].(map[string]interface{})
 	return result
 }
 
@@ -26,8 +24,7 @@ func HTMLTemplate(file string, data interface{}) string {
 			return template.HTML(HTMLTemplate(file, data))
 		},
 		"JsonLoad": func(path string) map[string]interface{} {
-			var tmp interface{}
-			return JsonLoad("./template/"+path, tmp)
+			return JsonLoad("./template/" + path)
 		},
 		"DataMap": func(data interface{}) map[string]interface{} {
 			return data.(map[string]interface{})

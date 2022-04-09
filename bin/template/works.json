@@ -66,77 +66,151 @@
                     "link": "https://tomsuzuki.github.io/kyomu/",
                     "text": "Link"
                 },
-                "text": "虚無のお部屋です。クリックすると虚無が大きくなります。"
+                "text": "　虚無のお部屋です。クリックすると虚無が大きくなります。"
+            },
+            {
+                "img": "2020-01_Gyro STG.jpg",
+                "title": "Gyro STG",
+                "date": "2020/01",
+                "text": "　大学の授業課題で制作したゲームです。グループでコントローラとゲームの両方を制作しました。担当はプログラムのです。"
             },
             {
                 "img": "",
-                "title": "",
-                "date": "",
+                "title": "Simple Memo",
+                "date": "2019/12",
                 "link": {
-                    "link": "",
-                    "text": ""
+                    "link": "https://tomsuzuki.github.io/memo/",
+                    "text": "Link"
                 },
-                "text": ""
+                "text": "自動保存機能付きのシンプルなメモ帳です。クッキーに保存するので他のデバイス、ブラウザ間で共有できません。"
+            },
+            {
+                "img": "2019-11_オートマタ 「トビウオ」.jpg",
+                "title": "オートマタ 「トビウオ」",
+                "date": "2019/11",
+                "link": {
+                    "link": "https://www.youtube.com/watch?v=zQgGyJ5LYlM",
+                    "text": "YouTube"
+                },
+                "text": "　大学の講義で制作した課題のオートマタ作品です。センサが無かったので、アルミホイルを接触センサの代わりに使用しています。"
+            },
+            {
+                "img": "2019-11_Color Pallet.jpg",
+                "title": "Color Pallet",
+                "date": "2019/11",
+                "link": {
+                    "link": "https://tomsuzuki.github.io/ColorPalette/",
+                    "text": "Link"
+                },
+                "text": "　よく使う色をまとめておくためのページです。色の系統ごとに6色ずづのセットにしています。"
+            },
+            {
+                "img": "2019-10_ポートフォリオ.jpg",
+                "title": "ポートフォリオ",
+                "date": "2019/10",
+                "text": "　ポートフォリオです。とりあえず作ってみました。"
             },
             {
                 "img": "",
-                "title": "",
-                "date": "",
+                "title": "変換候補関数",
+                "date": "2019/07",
                 "link": {
-                    "link": "",
-                    "text": ""
+                    "link": "https://github.com/TomSuzuki/PredictiveTransformation.pde",
+                    "text": "GitHub"
                 },
-                "text": ""
+                "text": "　辞書からひらがなの変換後の候補を検索してくれる関数です。昔作った機能のリメイク版です。"
+            },
+            {
+                "img": "2019-06_サークルロゴ FUN AI.jpg",
+                "title": "サークルロゴ FUN AI",
+                "date": "2019/06",
+                "link": {
+                    "link": "https://twitter.com/_FunAI_",
+                    "text": "サークル Twitter"
+                },
+                "text": "　所属している、大学のサークル用に作成したロゴです。"
+            },
+            {
+                "img": "2019-05_ペンダントライト.jpg",
+                "title": "ペンダントライト",
+                "date": "2019/05",
+                "text": "　大学の講義で制作したペンダントライトです。あまり写真を撮っていなかったため記録が少ないです..."
+            },
+            {
+                "img": "2018-12_Reversi BatchFile.jpg",
+                "title": "Reversi BatchFile",
+                "date": "2018/12",
+                "link": {
+                    "link": "https://github.com/TomSuzuki/Reversi_BatchFile",
+                    "text": "GitHub"
+                },
+                "text": "　コマンドプロンプトでオセロを実行できます。 文字コードの関係で動かすのが少し難しかったりします。 "
+            },
+            {
+                "img": "2018-10_DesktopMemo.jpg",
+                "title": "Desktop Memo",
+                "date": "2018/10",
+                "link": {
+                    "link": "https://github.com/TomSuzuki/DesktopMemo",
+                    "text": "GitHub"
+                },
+                "text": "　デスクトップ上に貼れるメモです。最前面化、フォント、色の変更などの機能があります。"
+            },
+            {
+                "img": "2017-10_メモ帳＋.jpg",
+                "title": "メモ帳＋",
+                "date": "2017/10",
+                "link": {
+                    "link": "https://github.com/TomSuzuki/memoplus",
+                    "text": "GitHub"
+                },
+                "text": "　windowsのメモ帳のような雰囲気のメモソフトです。複数ページを作ることができ、タブごとに分けて書くことができます。"
+            },
+            {
+                "img": "2017-07_課題スケジューラ.jpg",
+                "title": "課題スケジューラ",
+                "date": "2017/07",
+                "link": {
+                    "link": "https://github.com/TomSuzuki/FUNScheduler2017",
+                    "text": "GitHub"
+                },
+                "text": "　大学の課題で制作したスケジューラソフトです。大量に機能を付けた結果、発表時の時間制限に間に合わなくなりました。謎技術（スパゲッティコード）の詰め合わせです。"
             },
             {
                 "img": "",
-                "title": "",
-                "date": "",
+                "title": "Moonlight Spell",
+                "date": "2017/05",
                 "link": {
-                    "link": "",
-                    "text": ""
+                    "link": "./assets/contents/md_contents_stage_009 - Moonlight Spell.mid",
+                    "text": "Midi"
                 },
-                "text": ""
+                "text": "　大学の課題用ゲーム「Moonlight Magic」のステージ１の曲として使用しました。疾走感があり何度聴いても飽きない（はず）です。"
+            },
+            {
+                "img": "2016-09_スフィア４.jpg",
+                "title": "スフィア４",
+                "date": "2016/09",
+                "text": "　制限時間5秒！ステージ上の全コインを集めてゴールへ向かえ！"
             },
             {
                 "img": "",
-                "title": "",
-                "date": "",
+                "title": "氷霧山",
+                "date": "2016/05",
                 "link": {
-                    "link": "",
-                    "text": ""
+                    "link": "./assets/contents/md_contents_dungeon_001 - hyoumuYama.mid",
+                    "text": "Midi"
                 },
-                "text": ""
+                "text": "　氷のダンジョンをイメージして制作したBGMです。"
             },
             {
                 "img": "",
-                "title": "",
-                "date": "",
+                "title": "Cyber Space",
+                "date": "2016/03",
                 "link": {
-                    "link": "",
-                    "text": ""
+                    "link": "./assets/contents/md_contents_title_003 - Cyber space.mid",
+                    "text": "Midi"
                 },
-                "text": ""
-            },
-            {
-                "img": "",
-                "title": "",
-                "date": "",
-                "link": {
-                    "link": "",
-                    "text": ""
-                },
-                "text": ""
-            },
-            {
-                "img": "",
-                "title": "",
-                "date": "",
-                "link": {
-                    "link": "",
-                    "text": ""
-                },
-                "text": ""
+                "text": "　ゲームタイトル用の音楽です。電子的な雰囲気のBGMです。"
             }
         ]
     }
