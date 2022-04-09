@@ -1,17 +1,19 @@
 :root {
-    --color_theme       : #00926E;
-    --color_text        : #111111;
-    --color_white       : #FCFAFF;
-    --color_white2      : #EAE2EF;
-    --color_white3      : #F4F4F4;
-    --color_white4      : #FFFFFF;
-    --color_white5      : #ECECEC;
-    --color_light_gray  : #EEEEEE;
-    --color_gray        : #CCCCCC;
-    --default_radius    : 2px;
-    --default_transition: .175s;
-    --px_smartphone     : 599px;
-    --px_tablet         : 999px;
+    --color_theme         : #00926E;
+    --color_text          : #111111;
+    --color_white         : #FCFAFF;
+    --color_white2        : #EAE2EF;
+    --color_white3        : #F4F4F4;
+    --color_white4        : #FFFFFF;
+    --color_white5        : #ECECEC;
+    --color_dark_gray     : #777777;
+    --color_light_gray    : #EEEEEE;
+    --color_gray          : #CCCCCC;
+    --default_radius      : 2px;
+    --default_radius_large: .75em;
+    --default_transition  : .175s;
+    --px_smartphone       : 599px;
+    --px_tablet           : 999px;
 }
 
 .color_ruby {

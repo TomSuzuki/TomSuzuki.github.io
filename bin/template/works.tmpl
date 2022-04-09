@@ -1,0 +1,49 @@
+<div id="works" class="outer">
+
+    <h3>Works</h3>
+
+    {{ $page_contents_num := 12 }}
+    {{ $page_num := Add 1 (Div (Len .contents) $page_contents_num) }}
+    {{ $page := -1 }}
+    {{ $is_frame := false }}
+
+    {{ range $i, $content := .contents }}
+
+        {{ if eq (Mod $i $page_contents_num) 0 }}
+            {{ if $is_frame }}
+                </div>
+                <div class="works_page_controller">
+                    {{ if ne $page 0 }}
+                        <a class="works_page_controller_before" onclick="javascript:works_page({{ $page }}, {{ Sub $page 1 }})" href="javascript:void(0);">前のページ</a>
+                    {{ end }}
+                    <span class="works_page_controller_count">{{ Add $page 1 }} / {{ $page_num }}</span>
+                    {{ if ne (Add $i 1) (Len .contents) }}
+                        <a class="works_page_controller_next" onclick="javascript:works_page({{ $page }}, {{ Add $page 1 }})" href="javascript:void(0);">次のページ</a>
+                    {{ end }}
+                </div>
+                </div>
+                {{ $is_frame = false }}
+            {{ end }}
+            {{ $page = (Add $page 1) }}
+            {{ if ne (Add $i 1) (Len .contents) }}
+                <div id="works_page_{{ $page }}" class="works_page">
+                <div class="works_frame">
+                {{ $is_frame = true }}
+            {{ end }}
+        {{ end }}
+
+        {{ template "work" DataMap $content }}
+
+    {{ end }}
+
+    {{ if $is_frame }}
+        </div>
+        <div class="works_page_controller">
+            {{ if ne $page 0 }}
+                <a class="works_page_controller_before" onclick="javascript:works_page({{ $page }}, {{ Sub $page 1 }})" href="javascript:void(0);">前のページ</a>
+            {{ end }}
+            <span class="works_page_controller_count">{{ Add $page 1 }} / {{ $page_num }}</span>
+        </div>
+        </div>
+    {{ end }}
+</div>

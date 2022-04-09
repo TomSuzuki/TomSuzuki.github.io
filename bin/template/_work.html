@@ -1,0 +1,15 @@
+{{ define "work" }}
+
+<div class="works_content_frame">
+    <img src="./assets/img/{{ $.img }}" alt="" onerror="this.src='./assets/img/default.gif';">
+    <div class="works_info_frame">
+        <div class="works_title">{{ $.title }}</div>
+        <span class="works_date">{{ $.date }}</span>
+        {{ if $.link }}
+        | <span class="works_link"><a href="{{ $.link }}">Link</a></span>
+        {{ end }}
+        <div class="works_text">{{ $.text }}</div>
+    </div>
+</div>
+
+{{ end }}

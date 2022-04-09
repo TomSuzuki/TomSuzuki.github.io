@@ -32,12 +32,30 @@ func HTMLTemplate(file string, data interface{}) string {
 		"DataMap": func(data interface{}) map[string]interface{} {
 			return data.(map[string]interface{})
 		},
+		"NilMap": func() map[string]interface{} {
+			return map[string]interface{}{}
+		},
 		"DataString": func(data interface{}) string {
 			fmt.Println(data)
 			return "title" //data.(string)
 		},
 		"SafeHTML": func(text string) template.HTML {
 			return template.HTML(text)
+		},
+		"Add": func(i int, j int) int {
+			return i + j
+		},
+		"Sub": func(i int, j int) int {
+			return i - j
+		},
+		"Mod": func(i int, j int) int {
+			return i % j
+		},
+		"Div": func(i int, j int) int {
+			return int(i / j)
+		},
+		"Len": func(i []interface{}) int {
+			return len(i)
 		},
 	}
 	var body bytes.Buffer

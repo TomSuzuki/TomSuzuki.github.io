@@ -5,9 +5,9 @@
         <li>
             <div class="log_date">{{ $log.date }}</div>
             <div class="log_content">
-                <div class="log_title">{{ $log.title }}</div>
+                <div class="log_title">{{ $log.title | SafeHTML }}</div>
                 {{ if $log.text }}
-                <div class="log_text">{{ $log.text }}</div>
+                <div class="log_text">{{ $log.text | SafeHTML }}</div>
                 {{ end }}
             </div>
         </li>
