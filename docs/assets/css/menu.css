@@ -1,35 +1,57 @@
+:root {
+    --menu_height: 3rem;
+    --logo_margin: 2px;
+}
+
 #menu {
     z-index              : 9999;
     top                  : 0;
     display              : grid;
     grid-template-columns: 1fr auto;
-    height               : 3rem;
+    height               : var(--menu_height);
     width                : 100%;
     background           : var(--color_white);
     position             : relative;
     background-color     : var(--color_black);
 }
 
+
 #menu_info {
     position   : relative;
     margin-left: 3em;
+    height     : var(--menu_height);
+}
+
+#menu_logo_outer {
+    display              : inline-grid;
+    background-color     : var(--color_black2);
+    box-sizing           : border-box;
+    width                : auto;
+    height               : 100%;
+    grid-template-columns: var(--menu_height) auto;
+    border               : var(--logo_margin) solid var(--color_black);
+    border-radius        : var(--default_radius);
+}
+
+#menu_logo_outer:hover {
+    opacity: .75;
 }
 
 #menu_logo {
     padding      : 8px;
     border-radius: 50%;
-    height       : 3rem;
+    height       : calc(var(--menu_height) - 2 * var(--logo_margin));
     box-sizing   : border-box;
 }
 
 #menu_title {
-    font-size: large;
-    display  : inline-block;
-    position : absolute;
-    left     : calc(3rem + .5rem);
-    top      : 50%;
-    transform: translateY(-50%);
-    color    : var(--color_white);
+    width      : auto;
+    font-size  : large;
+    box-sizing : border-box;
+    display    : inline;
+    color      : var(--color_white);
+    padding    : 5px 1em 0;
+    line-height: calc(var(--menu_height) - 2 * var(--logo_margin) - 5px);
 }
 
 #menu_nav {

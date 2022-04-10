@@ -1,8 +1,10 @@
 <div id="menu">
-    <div id="menu_info">
-        <img id="menu_logo" src="./assets/img/icon.jpg">
-        <div id="menu_title">TomSuzuki</div>
-    </div>
+    <a id="menu_info" href="https://tomsuzuki.github.io/">
+        <span id="menu_logo_outer">
+            <img id="menu_logo" src="./assets/img/icon.jpg">
+            <div id="menu_title">TomSuzuki</div>
+        </span>
+    </a>
     <ul id="menu_nav">
         {{ range $i, $menu := .list }}
         <li><a onclick="javascript:menu_scroll('{{ $menu.anchor }}')">{{ $menu.text }}</a></li>
