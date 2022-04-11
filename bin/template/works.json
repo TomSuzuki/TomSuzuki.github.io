@@ -3,6 +3,12 @@
     "data": {
         "contents": [
             {
+                "img": "2019-10_ポートフォリオ.jpg",
+                "title": "About | TomSuzuki ver 4.00",
+                "date": "2022/04",
+                "text": "　旧自己紹介サイトで使用していた外部ライブラリが使えなくなったので新しくしました。"
+            },
+            {
                 "img": "",
                 "title": "white600",
                 "date": "2022/03",
@@ -48,7 +54,7 @@
                 "date": "2020/12",
                 "link": {
                     "link": "./assets/contents/1217rakugaki.ttf",
-                    "text": "Download"
+                    "text": "Download (.ttf)"
                 },
                 "text": "　なんかフォントを作ってみたくなった。"
             },
@@ -182,7 +188,7 @@
                 "date": "2017/05",
                 "link": {
                     "link": "./assets/contents/md_contents_stage_009 - Moonlight Spell.mid",
-                    "text": "Midi"
+                    "text": "Download (.mid)"
                 },
                 "text": "　大学の課題用ゲーム「Moonlight Magic」のステージ１の曲として使用しました。疾走感があり何度聴いても飽きない（はず）です。"
             },
@@ -198,7 +204,7 @@
                 "date": "2016/05",
                 "link": {
                     "link": "./assets/contents/md_contents_dungeon_001 - hyoumuYama.mid",
-                    "text": "Midi"
+                    "text": "Download (.mid)"
                 },
                 "text": "　氷のダンジョンをイメージして制作したBGMです。"
             },
@@ -208,7 +214,7 @@
                 "date": "2016/03",
                 "link": {
                     "link": "./assets/contents/md_contents_title_003 - Cyber space.mid",
-                    "text": "Midi"
+                    "text": "Download (.mid)"
                 },
                 "text": "　ゲームタイトル用の音楽です。電子的な雰囲気のBGMです。"
             }
