@@ -22,19 +22,23 @@
     border-color: #701516;
 }
 
-.color_twitter * {
+.color_twitter>* {
+    color       : var(--color_text);
     border-color: #55acee;
 }
 
 .color_qiita>* {
+    color       : var(--color_text);
     border-color: #55C500;
 }
 
 .color_github>* {
+    color       : var(--color_text);
     border-color: #4183c4;
 }
 
 .color_html {
+    color       : var(--color_text);
     border-color: #e44b23;
 }
 
