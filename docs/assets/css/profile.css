@@ -8,11 +8,6 @@
     padding: 0 2rem;
 }
 
-#profile_img {
-    position  : relative;
-    text-align: center;
-    margin-top: 2em;
-}
 
 #profile_img_header {
     width          : 100%;
@@ -23,14 +18,30 @@
     overflow       : hidden;
 }
 
+#profile_title {
+    font-size : xx-large;
+    padding   : .25em 1em;
+    text-align: center;
+    margin    : 2em 0 .75em;
+}
+
+#profile_info_outer {
+    text-align: center;
+}
+
+#profile_info {
+    display        : inline-flex;
+    text-align     : center;
+    justify-content: center;
+    flex-flow      : wrap;
+    align-items    : center;
+    gap            : 1em 3em;
+}
+
 #profile_img_icon {
     border-radius: 50%;
     width        : 8rem;
-}
-
-#profile_img_title {
-    font-size: xxx-large;
-    padding  : .25em 1em;
+    text-align   : center;
 }
 
 #profile_table_outer {
@@ -40,8 +51,9 @@
 #profile_table {
     display       : inline-block;
     text-align    : center;
-    font-size     : large;
+    font-size     : medium;
     border-spacing: .25em;
+    margin-top    : .5em;
 }
 
 #profile_table th,
