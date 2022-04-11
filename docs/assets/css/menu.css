@@ -17,9 +17,10 @@
 
 
 #menu_info {
-    position   : relative;
-    margin-left: 0;
-    height     : var(--menu_height);
+    position       : relative;
+    margin-left    : 0;
+    height         : var(--menu_height);
+    text-decoration: none;
 }
 
 #menu_logo_outer {
