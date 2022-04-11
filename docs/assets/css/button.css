@@ -7,6 +7,10 @@
     cursor    : pointer;
 }
 
+.btn5:hover {
+    opacity   : 1;
+}
+
 .btn5>.inner_btn5 {
     background-color: var(--color_white);
     width           : 100%;
