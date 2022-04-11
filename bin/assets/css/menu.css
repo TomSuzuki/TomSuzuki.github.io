@@ -18,7 +18,7 @@
 
 #menu_info {
     position   : relative;
-    margin-left: 3em;
+    margin-left: 0;
     height     : var(--menu_height);
 }
 
@@ -57,6 +57,7 @@
 #menu_nav {
     list-style: none;
     font-size : 0;
+    overflow  : hidden;
 }
 
 #menu_nav li {
