@@ -1,8 +1,8 @@
 * {
-	color      : var(--Color_Text);
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Osaka", "游ゴシック", Meiryo, sans-serif;
-	font-weight: bold;
-	word-wrap  : break-word;
+    color      : var(--Color_Text);
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic ProN", "メイリオ", "Osaka", "游ゴシック", Meiryo, sans-serif;
+    font-weight: bold;
+    word-wrap  : break-word;
 }
 
 body {
@@ -17,7 +17,7 @@ h3 {
     background   : var(--color_white);
     line-height  : 3em;
     padding-left : 1em;
-    margin-top: 3em;
+    margin-top   : 3em;
 }
 
 h4 {
@@ -30,4 +30,17 @@ h4 {
 ul,
 p {
     font-size: smaller;
+}
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: var(--color_theme);
+}
+
+a:hover,
+a:active {
+    opacity: .75;
 }
