@@ -3,6 +3,11 @@
     <Background/>
     <Head :info="info"/>
     <Profile :info="info"/>
+    <Works :info="info"/>
+    <Log :info="info"/>
+    <Skill :info="info"/>
+    <Archive :info="info"/>
+    <Foot :info="info"/>
   </div>
 </template>
 
@@ -21,11 +26,4 @@ export default {
     }
   }
 }
-
-    // <Profile/>
-    // <Works/>
-    // <Log/>
-    // <Skill/>
-    // <Archive/>
-    // <Foot/>
 </script>
