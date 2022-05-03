@@ -1,0 +1,107 @@
+{
+    "skill": [
+        {
+            "title": "Lang+",
+            "contents": [
+                {
+                    "name": "Ruby",
+                    "tag": "color_ruby"
+                },
+                {
+                    "name": "Go",
+                    "tag": "color_go"
+                },
+                {
+                    "name": "HTML",
+                    "tag": "color_html"
+                },
+                {
+                    "name": "CSS",
+                    "tag": "color_css"
+                },
+                {
+                    "name": "JavaScript",
+                    "tag": "color_js"
+                },
+                {
+                    "name": "C",
+                    "tag": "color_lang_c"
+                },
+                {
+                    "name": "C++",
+                    "tag": "color_cpp"
+                },
+                {
+                    "name": "Java",
+                    "tag": "color_java"
+                },
+                {
+                    "name": "HSP 3.x",
+                    "tag": "color_hsp3"
+                },
+                {
+                    "name": "Processing 3.x",
+                    "tag": "color_processing3x"
+                },
+                {
+                    "name": "Python 3.x",
+                    "tag": "color_python3"
+                },
+                {
+                    "name": "Batchfile",
+                    "tag": "color_bat"
+                },
+                {
+                    "name": "Arduino",
+                    "tag": "color_arduino"
+                },
+                {
+                    "name": "TypeScript",
+                    "tag": "color_ts"
+                },
+                {
+                    "name": "SQL",
+                    "tag": "color_sql"
+                },
+                {
+                    "name": "Vue.js",
+                    "tag": "color_vue"
+                }
+            ]
+        },
+        {
+            "title": "Software",
+            "contents": [
+                {
+                    "name": "Visual Studio Code",
+                    "tag": "color_vscode"
+                },
+                {
+                    "name": "Nano",
+                    "tag": "color_nano"
+                },
+                {
+                    "name": "Notepad",
+                    "tag": "color_notepad"
+                }
+            ]
+        },
+        {
+            "title": "Other",
+            "contents": [
+                {
+                    "name": "Git",
+                    "tag": "color_git"
+                },
+                {
+                    "name": "WINAPI",
+                    "tag": "color_winapi"
+                },
+                {
+                    "name": "DXLib",
+                    "tag": "color_dxlib"
+                }
+            ]
+        }
+    ]
+}

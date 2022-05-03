@@ -1,0 +1,59 @@
+{
+    "title": "About | TomSuzuki",
+    "link": "https://tomsuzuki.github.io/",
+    "menu": {
+        "Profile": "profile",
+        "Works": "works",
+        "Skill": "skill"
+    },
+    "profile": {
+        "img": "/img/icon.jpg",
+        "msg": "ようこそ。TomSuzukiです。作品をまとめているページです。各作品の詳細はGitHubへ。",
+        "table": {
+            "Name": "TomSuzuki",
+            "Birthday": "1999.2.20",
+            "Location": "Hokkaido, JP",
+            "Favorite": "Sushi, Niku"
+        },
+        "sns": [
+            {
+                "tag": "color_twitter",
+                "text": "Twitter",
+                "link": "https://twitter.com/0x0553"
+            },
+            {
+                "tag": "color_github",
+                "text": "GitHub",
+                "link": "https://github.com/TomSuzuki"
+            },
+            {
+                "tag": "color_github",
+                "text": "GitHub Gist",
+                "link": "https://gist.github.com/TomSuzuki"
+            },
+            {
+                "tag": "color_qiita",
+                "text": "Qiita",
+                "link": "https://qiita.com/TomSuzuki"
+            }
+        ]
+    },
+    "works": {
+        "title": "Works"
+    },
+    "log": {
+        "title": "Log"
+    },
+    "skill": {
+        "title": "Skill"
+    },
+    "archive": {
+        "title": "Archive"
+    },
+    "foot": {
+        "msg_list": [
+            "連絡先（Twitter DM）:  <a href='https://twitter.com/0x0553'>https://twitter.com/0x0553</a>",
+            "Copyright © TomSuzuki 2019-2022"
+        ]
+    }
+}
