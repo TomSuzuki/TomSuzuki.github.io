@@ -1,0 +1,40 @@
+{
+    "title": "About | TomSuzuki",
+    "link": "https://tomsuzuki.github.io/",
+    "menu": {
+        "Profile": "#profile",
+        "Works": "#works",
+        "Skill": "#skill"
+    },
+    "profile": {
+        "img": "/img/icon.jpg",
+        "msg": "ようこそ。TomSuzukiです。作品をまとめているページです。各作品の詳細はGitHubへ。",
+        "table": {
+            "Name": "TomSuzuki",
+            "Birthday": "1999.2.20",
+            "Location": "Hokkaido, JP"
+        },
+        "sns": [
+            {
+                "tag": "color_twitter",
+                "text": "Twitter",
+                "link": "https://twitter.com/0x0553"
+            },
+            {
+                "tag": "color_github",
+                "text": "GitHub",
+                "link": "https://github.com/TomSuzuki"
+            },
+            {
+                "tag": "color_github",
+                "text": "GitHub Gist",
+                "link": "https://gist.github.com/TomSuzuki"
+            },
+            {
+                "tag": "color_qiita",
+                "text": "Qiita",
+                "link": "https://qiita.com/TomSuzuki"
+            }
+        ]
+    }
+}

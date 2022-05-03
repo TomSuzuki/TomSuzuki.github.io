@@ -40,3 +40,12 @@ GolangでデータからHTMLを生成しています。
 |ver 1.11|2019/10/08|フォントを変更しました。|  
 |ver 1.10|2019/10/08|ロード画面を追加しました。|  
 |ver 1.00|2019/10/08|公開しました。|  
+
+## テスト
+```shell
+cd docs
+python -m http.server 8000
+```
+```shell
+npm run generate
+```
