@@ -2,9 +2,9 @@
     "title": "About | TomSuzuki",
     "link": "https://tomsuzuki.github.io/",
     "menu": {
-        "Profile": "#profile",
-        "Works": "#works",
-        "Skill": "#skill"
+        "Profile": "profile",
+        "Works": "works",
+        "Skill": "skill"
     },
     "profile": {
         "img": "/img/icon.jpg",

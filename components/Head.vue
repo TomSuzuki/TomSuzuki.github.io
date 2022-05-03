@@ -9,7 +9,7 @@
     </div>
     <ul id="menu">
       <li v-for="(id, text) in info.menu">
-        <a :href="id">{{ text }}</a>
+        <a @click="$scroll_to_id(id, -16)">{{ text }}</a>
       </li>
     </ul>
   </div>

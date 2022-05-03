@@ -64,9 +64,11 @@ export default {
   },
   methods: {
     next_page: function () {
+      this.$scroll_to_id("works", -16);
       this.now_page++;
     },
     before_page: function () {
+      this.$scroll_to_id("works", -16);
       this.now_page--;
     },
   },
