@@ -8,6 +8,9 @@
     <div class="works_info_frame">
       <div class="works_title">{{ content.title }}</div>
       <span class="works_date">{{ content.date }}</span>
+      <span class="works_link" v-if="content.link">
+        ｜<a :href="content.link.link">{{ content.link.text }}</a>
+      </span>
       <div class="works_text" v-html="content.text"></div>
     </div>
   </div>

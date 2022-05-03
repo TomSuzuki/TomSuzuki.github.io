@@ -16,6 +16,7 @@
       <a
         class="works_page_controller_before"
         v-if="this.now_page > 0"
+        href="javascript:void(0);"
         @click="before_page"
         >前のページへ</a
       >
@@ -25,6 +26,7 @@
       <a
         class="works_page_controller_next"
         v-if="this.now_page < this.page_count - 1"
+        href="javascript:void(0);"
         @click="next_page"
         >次のページへ</a
       >
