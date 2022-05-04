@@ -51,7 +51,7 @@
             "title": "1217 Rakugaki Font",
             "date": "2020/12",
             "link": {
-                "link": "./assets/contents/1217rakugaki.ttf",
+                "link": "./contents/1217rakugaki.ttf",
                 "text": "Download (.ttf)"
             },
             "text": "　なんかフォントを作ってみたくなった。"
@@ -185,7 +185,7 @@
             "title": "Moonlight Spell",
             "date": "2017/05",
             "link": {
-                "link": "./assets/contents/md_contents_stage_009 - Moonlight Spell.mid",
+                "link": "./contents/md_contents_stage_009 - Moonlight Spell.mid",
                 "text": "Download (.mid)"
             },
             "text": "　大学の課題用ゲーム「Moonlight Magic」のステージ１の曲として使用しました。疾走感があり何度聴いても飽きない（はず）です。"
@@ -201,7 +201,7 @@
             "title": "氷霧山",
             "date": "2016/05",
             "link": {
-                "link": "./assets/contents/md_contents_dungeon_001 - hyoumuYama.mid",
+                "link": "./contents/md_contents_dungeon_001 - hyoumuYama.mid",
                 "text": "Download (.mid)"
             },
             "text": "　氷のダンジョンをイメージして制作したBGMです。"
@@ -211,7 +211,7 @@
             "title": "Cyber Space",
             "date": "2016/03",
             "link": {
-                "link": "./assets/contents/md_contents_title_003 - Cyber space.mid",
+                "link": "./contents/md_contents_title_003 - Cyber space.mid",
                 "text": "Download (.mid)"
             },
             "text": "　ゲームタイトル用の音楽です。電子的な雰囲気のBGMです。"
