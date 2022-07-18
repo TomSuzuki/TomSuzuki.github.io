@@ -4,6 +4,10 @@
             "title": "Lang+",
             "contents": [
                 {
+                    "name": "C#",
+                    "tag": "color_cs"
+                },
+                {
                     "name": "Ruby",
                     "tag": "color_ruby"
                 },
@@ -72,6 +76,10 @@
         {
             "title": "Software",
             "contents": [
+                {
+                    "name": "Visual Studio",
+                    "tag": "color_vs"
+                },
                 {
                     "name": "Visual Studio Code",
                     "tag": "color_vscode"

@@ -1,21 +1,25 @@
 :root {
-    --color_theme         : #00926E;
-    --color_text          : #111111;
-    --color_black         : #333333;
-    --color_black2        : #222222;
-    --color_white         : #FCFAFF;
-    --color_white2        : #EAE2EF;
-    --color_white3        : #F4F4F4;
-    --color_white4        : #FFFFFF;
-    --color_white5        : #ECECEC;
-    --color_dark_gray     : #777777;
-    --color_light_gray    : #EEEEEE;
-    --color_gray          : #CCCCCC;
-    --default_radius      : 2px;
+    --color_theme: #00926E;
+    --color_text: #111111;
+    --color_black: #333333;
+    --color_black2: #222222;
+    --color_white: #FCFAFF;
+    --color_white2: #EAE2EF;
+    --color_white3: #F4F4F4;
+    --color_white4: #FFFFFF;
+    --color_white5: #ECECEC;
+    --color_dark_gray: #777777;
+    --color_light_gray: #EEEEEE;
+    --color_gray: #CCCCCC;
+    --default_radius: 2px;
     --default_radius_large: .75em;
-    --default_transition  : .175s;
-    --px_smartphone       : 599px;
-    --px_tablet           : 999px;
+    --default_transition: .175s;
+    --px_smartphone: 599px;
+    --px_tablet: 999px;
+}
+
+.color_cs {
+    border-color: #178600;
 }
 
 .color_ruby {
@@ -23,22 +27,22 @@
 }
 
 .color_twitter>* {
-    color       : var(--color_text);
+    color: var(--color_text);
     border-color: #55acee;
 }
 
 .color_qiita>* {
-    color       : var(--color_text);
+    color: var(--color_text);
     border-color: #55C500;
 }
 
 .color_github>* {
-    color       : var(--color_text);
+    color: var(--color_text);
     border-color: #4183c4;
 }
 
 .color_html {
-    color       : var(--color_text);
+    color: var(--color_text);
     border-color: #e44b23;
 }
 
@@ -92,6 +96,10 @@
 
 .color_git {
     border-color: #F04F30;
+}
+
+.color_vs {
+    border-color: #0767a7;
 }
 
 .color_vscode {
